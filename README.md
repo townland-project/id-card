@@ -1,1 +1,1 @@
-# @townland-project/component
+# @townland-project/id-card

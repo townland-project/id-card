@@ -1,0 +1,27 @@
+<header>
+    Identification Card
+</header>
+<main>
+    <div id="tl-id-card-image" class="image"></div>
+
+    <div class="info">
+        <div class="row">
+            <span>ID Code:</span>
+            <strong>{{id}}</strong>
+        </div>
+        <div class="row">
+            <span>Firstname:</span>
+            <strong>{{firstname}}</strong>
+        </div>
+        <div class="row">
+            <span>Lastname:</span>
+            <strong>{{lastname}}</strong>
+        </div>
+        <div class="row">
+            <span>Gender:</span>
+            <strong>{{gender}}</strong>
+        </div>
+
+        <svg id="tl-id-card-barcode"></svg>
+    </div>
+</main>

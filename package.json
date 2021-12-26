@@ -1,7 +1,7 @@
 {
-  "name": "@townland-project/component",
+  "name": "@townland-project/id-card",
   "version": "0.0.1",
-  "description": "Townland component boilerplate",
+  "description": " Character's ID card in town",
   "main": "public/bundle.js",
   "scripts": {
     "serve": "webpack serve",
@@ -21,9 +21,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/townland-project/component.git"
+    "url": "https://github.com/townland-project/id-card.git"
   },
-  "homepage": "https://project.townland.xyz/repo/component",
+  "homepage": "https://project.townland.xyz/repo/id-card",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^17.0.4",
@@ -41,9 +41,13 @@
   },
   "dependencies": {
     "@townland-project/app": "*",
+    "@townland-project/cache": "^0.0.1",
+    "@townland-project/character-dom": "github:townland-project/character-dom",
     "@townland-project/dom": "*",
     "@townland-project/eventer": "*",
-    "@townland-project/gui": "*"
+    "@townland-project/gui": "*",
+    "@townland-project/interfaces": "github:townland-project/interfaces",
+    "jsbarcode": "^3.11.5"
   },
   "browserslist": [
     "last 1 Chrome versions"
